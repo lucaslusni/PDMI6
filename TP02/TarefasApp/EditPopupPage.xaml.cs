@@ -16,7 +16,7 @@ public partial class EditPopupPage : ContentPage
 	{
         MessagingCenter.Send(this, "EditTask", selectedTask);
         BindingContext = selectedTask;
-        await Navigation.PushAsync(new MainPage());
+        await Navigation.PopAsync();
     }
 
     private async void onCancel(object sender, EventArgs e)
