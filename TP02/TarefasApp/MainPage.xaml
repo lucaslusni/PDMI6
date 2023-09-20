@@ -5,6 +5,7 @@
              BackgroundColor="Transparent">
 
     <ScrollView>
+        <StackLayout>
         <ListView 
             x:Name="lstTasks"
             BackgroundColor="LightGray"
@@ -22,6 +23,11 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+            <Button Text="Adicionar Tarefa" 
+            Clicked="NovaTarefa" 
+            HorizontalOptions="CenterAndExpand" 
+            VerticalOptions="Center" />
+        </StackLayout>
     </ScrollView>
 
 </ContentPage>
