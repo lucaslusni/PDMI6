@@ -13,22 +13,22 @@ public partial class MainPage : ContentPage
         new Models.Task(2, "My Second Task", "Description Task 2", DateTime.Now, 2),
         new Models.Task(3, "My Third Task", "Description Task 3", DateTime.Now, 3)
     };
-    private void NovaTarefa(object sender, EventArgs e)
+    private async void NovaTarefa(object sender, EventArgs e)
     {
-        Models.Task novaTarefa = new Models.Task(3, "Nova Tarefa ", "Descrição da Nova Tarefa", DateTime.Now, 0);
-
-        tasks.Add(novaTarefa);
+        await Navigation.PushAsync(new NovaTarefaPage());
     }
+
     public MainPage()
 	{
         InitializeComponent();
 
-        MessagingCenter.Subscribe<DetailTask, Models.Task>(this, "RemoveTask", (sender, task) =>
-        {
-            // Remove the task from the list
-            tasks.Remove(task);
-        });
 
+
+        MessagingCenter.Subscribe<NovaTarefaPage, Models.Task>(this, "AdicionarTarefa", (sender, novaTarefa) =>
+        {
+           
+            tasks.Add(novaTarefa);
+        });
         MessagingCenter.Subscribe<DetailTask, Models.Task>(this, "EditTask", (sender, task) =>
         {
             tasks.Where(x => x.Id == task.Id).First().Title = task.Title;
@@ -42,7 +42,7 @@ public partial class MainPage : ContentPage
     }
 
     private async void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
-	{
+    {
         if (e.SelectedItem != null)
         {
             var selectedItem = (Models.Task)e.SelectedItem;
