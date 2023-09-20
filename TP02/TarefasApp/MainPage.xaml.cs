@@ -13,7 +13,12 @@ public partial class MainPage : ContentPage
         new Models.Task(2, "My Second Task", "Description Task 2", DateTime.Now, 2),
         new Models.Task(3, "My Third Task", "Description Task 3", DateTime.Now, 3)
     };
+    private void NovaTarefa(object sender, EventArgs e)
+    {
+        Models.Task novaTarefa = new Models.Task(3, "Nova Tarefa ", "Descrição da Nova Tarefa", DateTime.Now, 0);
 
+        tasks.Add(novaTarefa);
+    }
     public MainPage()
 	{
         InitializeComponent();
