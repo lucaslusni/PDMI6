@@ -541,7 +541,6 @@ C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.923.32018.dll
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -646,3 +645,4 @@ C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\obj\Debug\net7.0-windows
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\PC - Casa\Downloads\PDMI6-Main\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1123.42427.dll
