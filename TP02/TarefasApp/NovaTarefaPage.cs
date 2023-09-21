@@ -10,26 +10,32 @@ namespace TarefasApp
             InitializeComponent();
         }
 
-        private void AdicionarTarefa(object sender, EventArgs e)
+        private void AddTask(object sender, EventArgs e)
         {
-            // Obtendo  os valores dos campos de entrada
-            string title = txtTitle.Text;
-            string description = txtDescription.Text;
+            if (String.IsNullOrEmpty(txtTitle.Text))
+            {
+                DisplayAlert("Erro", "Enter a title.", "OK");
+                return;
+            }
 
-            // Validação para a entrada de prioridade 
+            if (String.IsNullOrEmpty(txtDescription.Text))
+            {
+                DisplayAlert("Erro", "Enter a description.", "OK");
+                return;
+            }
+
             if (int.TryParse(txtPriority.Text, out int priority))
             {
-                // Criando uma nova tarefa com os valores inseridos
-                Models.Task novaTarefa = new Models.Task(4, title, description, DateTime.Now, priority);
+                Models.Task novaTarefa = new Models.Task(txtTitle.Text, txtDescription.Text, txtDate.Date, priority);
 
-               
-                MessagingCenter.Send(this, "AdicionarTarefa", novaTarefa);
+                MessagingCenter.Send(this, "AddTask", novaTarefa);
 
                 Navigation.PopAsync();
             }
             else
             {
-                DisplayAlert("Erro", "A prioridade deve ser um número válido.", "OK");
+                DisplayAlert("Erro", "The priority must be a valid number.", "OK");
+                return;
             }
         }
     }

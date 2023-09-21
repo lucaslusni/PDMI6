@@ -23,10 +23,13 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-            <Button Text="Adicionar Tarefa" 
-            Clicked="NovaTarefa" 
-            HorizontalOptions="CenterAndExpand" 
-            VerticalOptions="Center" />
+            <Button 
+                Text="Adicionar Tarefa" 
+                Clicked="NovaTarefa" 
+                TextColor="White"
+                BackgroundColor="Black"
+                HorizontalOptions="CenterAndExpand" 
+                VerticalOptions="Center" />
         </StackLayout>
     </ScrollView>
 

@@ -10,11 +10,19 @@ namespace TarefasApp.Models
     {
         public Task(int Id, string Title, string Description, DateTime Created, int Priority)
         {
-            this.Id = Id ;
+            this.Id = Id;
             this.Title = Title;
             this.Description = Description;
             this.Created = Created;
             this.Priority = Priority;   
+        }
+
+        public Task(string Title, string Description, DateTime Created, int Priority)
+        {
+            this.Title = Title;
+            this.Description = Description;
+            this.Created = Created;
+            this.Priority = Priority;
         }
 
         public int Id { get; set; }
