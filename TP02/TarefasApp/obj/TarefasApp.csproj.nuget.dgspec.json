@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dougl\\Source\\Repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj": {}
+    "C:\\Users\\Dougl\\source\\repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dougl\\Source\\Repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj": {
+    "C:\\Users\\Dougl\\source\\repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dougl\\Source\\Repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj",
+        "projectUniqueName": "C:\\Users\\Dougl\\source\\repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj",
         "projectName": "TarefasApp",
-        "projectPath": "C:\\Users\\Dougl\\Source\\Repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj",
+        "projectPath": "C:\\Users\\Dougl\\source\\repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj",
         "packagesPath": "C:\\Users\\Dougl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dougl\\Source\\Repos\\PDMI6\\TP02\\TarefasApp\\obj\\",
+        "outputPath": "C:\\Users\\Dougl\\source\\repos\\PDMI6\\TP02\\TarefasApp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

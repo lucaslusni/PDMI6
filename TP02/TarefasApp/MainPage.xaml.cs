@@ -18,10 +18,15 @@ public partial class MainPage : ContentPage
 	{
         InitializeComponent();
 
-        MessagingCenter.Subscribe<NovaTarefaPage, Models.Task>(this, "AddTask", (sender, novaTarefa) =>
+        MessagingCenter.Subscribe<NovaTarefaPage, Models.Task>(this, "AddTask", (sender, task) =>
         {
-            novaTarefa.Id = ++cout;
-            tasks.Add(novaTarefa);
+            task.Id = ++cout;
+            tasks.Add(task);
+        });
+
+        MessagingCenter.Subscribe<DetailTask, Models.Task>(this, "RemoveTask", (sender, task) =>
+        {
+            tasks.Remove(task);
         });
 
         MessagingCenter.Subscribe<DetailTask, Models.Task>(this, "EditTask", (sender, task) =>
