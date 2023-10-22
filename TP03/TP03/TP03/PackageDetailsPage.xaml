@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TP03"
+             x:Class="TP03.PackageDetailsPage"
+             >
+
+    <ScrollView>
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Detalhes do Pacote" FontSize="Large" HorizontalOptions="Center" Grid.Row="0" Grid.ColumnSpan="2" />
+
+            <Label Text="Status:" FontAttributes="Bold" Grid.Row="1" Grid.Column="0" />
+            <Label Text="{Binding Status}" Grid.Row="1" Grid.Column="1" />
+
+            <Label Text="Data de Envio:" FontAttributes="Bold" Grid.Row="2" Grid.Column="0" />
+            <Label Text="{Binding SendDate}" Grid.Row="2" Grid.Column="1" />
+
+            <Label Text="Data de Entrega Esperada:" FontAttributes="Bold" Grid.Row="3" Grid.Column="0" />
+            <Label Text="{Binding ExpectedDeliveryDate}" Grid.Row="3" Grid.Column="1" />
+
+            <Label Text="Eventos:" FontAttributes="Bold" Grid.Row="4" Grid.Column="0" />
+            <Label Text="{Binding Events}" Grid.Row="4" Grid.Column="1" />
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

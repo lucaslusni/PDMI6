@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TP03"
+             x:Class="TP03.MainPage">
+    
+    <StackLayout>
+        
+        <Label Text="Rastreamento de Pacotes" FontSize="Title" HorizontalOptions="CenterAndExpand" />
+        <Entry Placeholder="Digite o número de rastreamento" Text="{Binding TrackingNumber}" Keyboard="Numeric" HorizontalOptions="FillAndExpand" Margin="20" />
+        <Button Text="Rastrear" Command="{Binding TrackPackageCommand}" HorizontalOptions="CenterAndExpand" Margin="20" />
+
+    </StackLayout>
+
+
+</ContentPage>

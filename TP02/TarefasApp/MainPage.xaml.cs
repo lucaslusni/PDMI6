@@ -6,7 +6,7 @@ namespace TarefasApp;
 
 public partial class MainPage : ContentPage
 {
-    int cout = 0;
+    int cout = 3;
     ObservableCollection<Models.Task> tasks = new ObservableCollection<Models.Task>
     {
         new Models.Task(1, "My First Task", "Description Task 1", DateTime.Now, 1),
