@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Acc7Da2u5m+zl0ryBwCtTobL30xf+aniaEa9xyEWbyPaR3MDGeICVkwgzvrTowCZW62AONahynfnXwEKItvJQA==",
+  "dgSpecHash": "zRsM8tPPzNyrwMzQ7bXudVnI6PLULk/fZ+RYseb70wuuuDdlpmvvAwztQcmQ8lU5+CEKcwq5t1xhCbKN/PMxpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\Mobile\\TP02\\TarefasApp\\TarefasApp.csproj",
+  "projectFilePath": "C:\\Users\\Dougl\\source\\repos\\PDMI6\\TP02\\TarefasApp\\TarefasApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dougl\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\Dougl\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

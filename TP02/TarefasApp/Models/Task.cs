@@ -17,6 +17,14 @@ namespace TarefasApp.Models
             this.Priority = Priority;   
         }
 
+        public Task(string Title, string Description, DateTime Created, int Priority)
+        {
+            this.Title = Title;
+            this.Description = Description;
+            this.Created = Created;
+            this.Priority = Priority;
+        }
+
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }

@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>7dace723-c08e-4dc7-8d93-11ff468bf91a</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>AAFD606F5E77A0C9E64CE00BBA279DF899BE6FEEB7FF3793866D358753F26945</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7dace723-c08e-4dc7-8d93-11ff468bf91a_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7dace723-c08e-4dc7-8d93-11ff468bf91a_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -26,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-17T22:04:30.283</Modified>
+      <Modified>2023-09-21T12:22:13.186</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-17T21:59:25.879</Modified>
+      <Modified>2023-09-21T12:22:12.788</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TarefasApp.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TarefasApp.runtimeconfig.json">
       <PackagePath>TarefasApp.runtimeconfig.json</PackagePath>
-      <Modified>2023-09-17T21:41:34.465</Modified>
+      <Modified>2023-09-21T11:58:07.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TarefasApp.dll">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TarefasApp.dll">
       <PackagePath>TarefasApp.dll</PackagePath>
-      <Modified>2023-09-17T22:04:29.158</Modified>
+      <Modified>2023-09-21T12:22:11.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TarefasApp.exe</PackagePath>
-      <Modified>2023-09-17T22:04:29.166</Modified>
+      <Modified>2023-09-21T12:22:11.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dougl\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -917,9 +917,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\TarefasApp.deps.json">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\TarefasApp.deps.json">
       <PackagePath>TarefasApp.deps.json</PackagePath>
-      <Modified>2023-09-17T22:04:30.131</Modified>
+      <Modified>2023-09-21T12:22:12.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -933,241 +933,241 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-04-25T19:26:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2023-09-17T17:44:23.976</Modified>
+      <Modified>2023-09-21T11:54:49.546</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-09-17T17:44:45.834</Modified>
+      <Modified>2023-09-21T11:54:53.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-09-17T17:44:45.847</Modified>
+      <Modified>2023-09-21T11:54:53.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-09-17T17:44:45.866</Modified>
+      <Modified>2023-09-21T11:54:53.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-09-17T17:44:45.894</Modified>
+      <Modified>2023-09-21T11:54:53.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.005</Modified>
+      <Modified>2023-09-21T11:54:53.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2023-09-17T17:44:23.974</Modified>
+      <Modified>2023-09-21T11:54:53.840</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2023-09-17T17:44:23.975</Modified>
+      <Modified>2023-09-21T11:54:53.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-09-17T17:44:46.051</Modified>
+      <Modified>2023-09-21T11:54:53.842</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.285</Modified>
+      <Modified>2023-09-21T11:54:53.842</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.295</Modified>
+      <Modified>2023-09-21T11:54:53.843</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.305</Modified>
+      <Modified>2023-09-21T11:54:53.843</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.320</Modified>
+      <Modified>2023-09-21T11:54:53.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.376</Modified>
+      <Modified>2023-09-21T11:54:53.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.134</Modified>
+      <Modified>2023-09-21T11:54:53.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.145</Modified>
+      <Modified>2023-09-21T11:54:53.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.155</Modified>
+      <Modified>2023-09-21T11:54:53.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.145</Modified>
+      <Modified>2023-09-21T11:54:53.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.145</Modified>
+      <Modified>2023-09-21T11:54:53.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.125</Modified>
+      <Modified>2023-09-21T11:54:53.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.125</Modified>
+      <Modified>2023-09-21T11:54:53.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.134</Modified>
+      <Modified>2023-09-21T11:54:53.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.125</Modified>
+      <Modified>2023-09-21T11:54:53.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.125</Modified>
+      <Modified>2023-09-21T11:54:53.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.092</Modified>
+      <Modified>2023-09-21T11:54:53.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.095</Modified>
+      <Modified>2023-09-21T11:54:53.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.098</Modified>
+      <Modified>2023-09-21T11:54:53.849</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.101</Modified>
+      <Modified>2023-09-21T11:54:53.849</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.105</Modified>
+      <Modified>2023-09-21T11:54:53.849</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.105</Modified>
+      <Modified>2023-09-21T11:54:53.850</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.105</Modified>
+      <Modified>2023-09-21T11:54:53.850</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.115</Modified>
+      <Modified>2023-09-21T11:54:53.850</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.105</Modified>
+      <Modified>2023-09-21T11:54:53.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.115</Modified>
+      <Modified>2023-09-21T11:54:53.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.195</Modified>
+      <Modified>2023-09-21T11:54:53.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.200</Modified>
+      <Modified>2023-09-21T11:54:53.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.205</Modified>
+      <Modified>2023-09-21T11:54:53.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.205</Modified>
+      <Modified>2023-09-21T11:54:53.852</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.225</Modified>
+      <Modified>2023-09-21T11:54:53.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.174</Modified>
+      <Modified>2023-09-21T11:54:53.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.174</Modified>
+      <Modified>2023-09-21T11:54:53.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.174</Modified>
+      <Modified>2023-09-21T11:54:53.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.184</Modified>
+      <Modified>2023-09-21T11:54:53.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.184</Modified>
+      <Modified>2023-09-21T11:54:53.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.160</Modified>
+      <Modified>2023-09-21T11:54:53.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.160</Modified>
+      <Modified>2023-09-21T11:54:53.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.165</Modified>
+      <Modified>2023-09-21T11:54:53.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.165</Modified>
+      <Modified>2023-09-21T11:54:53.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.174</Modified>
+      <Modified>2023-09-21T11:54:53.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.230</Modified>
+      <Modified>2023-09-21T11:54:53.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.235</Modified>
+      <Modified>2023-09-21T11:54:53.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.243</Modified>
+      <Modified>2023-09-21T11:54:53.858</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.254</Modified>
+      <Modified>2023-09-21T11:54:53.858</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.281</Modified>
+      <Modified>2023-09-21T11:54:53.858</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.098</Modified>
+      <Modified>2023-09-21T11:54:53.859</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.105</Modified>
+      <Modified>2023-09-21T11:54:53.859</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.115</Modified>
+      <Modified>2023-09-21T11:54:53.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.134</Modified>
+      <Modified>2023-09-21T11:54:53.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dougl\OneDrive\Documentos\IFSP\Mobile\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Dougl\Source\Repos\PDMI6\TP02\TarefasApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-09-17T17:44:46.174</Modified>
+      <Modified>2023-09-21T11:54:53.861</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

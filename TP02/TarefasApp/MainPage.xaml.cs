@@ -18,9 +18,14 @@ public partial class MainPage : ContentPage
 	{
         InitializeComponent();
 
+        MessagingCenter.Subscribe<NovaTarefaPage, Models.Task>(this, "AddTask", (sender, task) =>
+        {
+            task.Id = ++cout;
+            tasks.Add(task);
+        });
+
         MessagingCenter.Subscribe<DetailTask, Models.Task>(this, "RemoveTask", (sender, task) =>
         {
-            // Remove the task from the list
             tasks.Remove(task);
         });
 
@@ -30,14 +35,18 @@ public partial class MainPage : ContentPage
             tasks.Where(x => x.Id == task.Id).First().Description = task.Description;
             tasks.Where(x => x.Id == task.Id).First().Created = task.Created;
             tasks.Where(x => x.Id == task.Id).First().Priority = task.Priority;
-            
         });
 
         lstTasks.ItemsSource = tasks;
     }
 
+    private async void NovaTarefa(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new NovaTarefaPage());
+    }
+
     private async void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
-	{
+    {
         if (e.SelectedItem != null)
         {
             var selectedItem = (Models.Task)e.SelectedItem;

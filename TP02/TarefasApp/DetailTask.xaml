@@ -65,6 +65,7 @@
                Margin="10,5,0,0" />
 
         <Entry Grid.Row="7"
+                IsEnabled="False"
                 Keyboard="Numeric"
                 TextColor="Black" 
                 Text="{Binding Priority}" 
