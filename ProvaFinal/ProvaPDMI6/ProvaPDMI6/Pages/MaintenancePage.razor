@@ -4,34 +4,34 @@
 @inject IBookService bookService
 @inject NavigationManager navigation
 
-<h3>Maintenance</h3>
+<h1>Book Maintenance</h1>
 
-<div class="form-group">
-    <label>Book Name</label>
+<div class="form-group" style="border-bottom: 10px">
+    <label class="fw-bold">Book Name</label>
     <input @bind="Name" class="form-control" placeholder="Book Name">
 </div>
 
-<div class="form-group">
-    <label>Author Name</label>
+<div class="form-group" style="border-bottom: 10px">
+    <label class="fw-bold">Author Name</label>
     <input @bind="AuthorName" class="form-control" placeholder="Author Name">
 </div>
 
-<div class="form-group">
-    <label>Author E-mail</label>
+<div class="form-group" style="border-bottom: 10px">
+    <label class="fw-bold">Author E-mail</label>
     <input @bind="AuthorEmail" class="form-control" placeholder="Author E-mail">
 </div>
 
-<div class="form-group">
-    <label>ISBN</label>
+<div class="form-group" style="border-bottom: 10px">
+    <label class="fw-bold">ISBN</label>
     <input @bind="ISBN" class="form-control" placeholder="ISBN">
 </div>
 
 <button type="submit" @onclick="Maintenance" class="mt-2 btn btn-primary">
-    Enviar
+    Send
 </button>
 
 <button type="submit" @onclick="ReturnPage" class="mt-2 btn btn-dark">
-    Retornar
+    Return
 </button>
 
 @code {
