@@ -1,0 +1,78 @@
+﻿@page "/bookPage"
+
+@inject IBookService bookService
+@inject NavigationManager navigation
+
+<h1>IFSP bookstore</h1>
+
+@if (books == null)
+{
+    <p><em>Loading...</em></p>
+} 
+else
+{
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+              <tr>
+                    <th>Name</th>
+                    <th>Author Name</th>
+                    <th>Author E-mail</th>
+                    <th>ISBN</th>
+              </tr>
+            </thead>
+            <tbody>
+                @foreach(var bookl in books)
+                {
+                    <tr>
+                        <td>@bookl.Name</td>
+                        <td>@bookl.AuthorName</td>
+                        <td>@bookl.AuthorEmail</td>
+                        <td>@bookl.ISBN</td>
+                        <td>
+                            <button type="submit"
+                            @onclick="@(() => EditBook(bookl.Id))"
+                                    class="btn btn-success">
+                                Edit
+                            </button>
+                        </td>
+                        <td>
+                            <button 
+                                type="submit"
+                                @onclick="@(() => DeleteBook(bookl))"
+                                class="btn btn-danger">Delete
+                            </button>
+                        </td>
+
+                    </tr>
+                }
+        </tbody>
+        </table>
+    </div>
+}
+
+@code {
+    private List<Book> books;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await bookService.InitializeAsync();
+        books = await bookService.GetBooks();
+    }
+
+    private void EditBook(int bookId)
+    {
+        navigation.NavigateTo($"update_book/{bookId}");
+    }
+
+    private async void DeleteBook(Book book)
+    {
+        var response = await bookService.DeleteBook(book);
+
+        if (response > 0)
+        {
+            await OnInitializedAsync();
+            this.StateHasChanged();
+        }
+    }
+}

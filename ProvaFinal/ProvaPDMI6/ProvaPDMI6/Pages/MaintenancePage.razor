@@ -1,0 +1,138 @@
+﻿@page "/add_book"
+@page "/update_book/{bookId:int}"
+
+@inject IBookService bookService
+@inject NavigationManager navigation
+
+<h1>Book Maintenance</h1>
+
+<div class="form-group" style="border-bottom: 10px">
+    <label class="fw-bold">Book Name</label>
+    <input @bind="Name" class="form-control" placeholder="Book Name">
+</div>
+
+<div class="form-group" style="border-bottom: 10px">
+    <label class="fw-bold">Author Name</label>
+    <input @bind="AuthorName" class="form-control" placeholder="Author Name">
+</div>
+
+<div class="form-group" style="border-bottom: 10px">
+    <label class="fw-bold">Author E-mail</label>
+    <input @bind="AuthorEmail" class="form-control" placeholder="Author E-mail">
+</div>
+
+<div class="form-group" style="border-bottom: 10px">
+    <label class="fw-bold">ISBN</label>
+    <input @bind="ISBN" class="form-control" placeholder="ISBN">
+</div>
+
+<button type="submit" @onclick="Maintenance" class="mt-2 btn btn-primary">
+    Send
+</button>
+
+<button type="submit" @onclick="ReturnPage" class="mt-2 btn btn-dark">
+    Return
+</button>
+
+@code {
+    [Parameter]
+    public int BookId { get; set; }
+
+    private string Name;
+    private string AuthorName;
+    private string AuthorEmail;
+    private string ISBN;
+
+    protected async override Task OnInitializedAsync()
+    {
+        if (BookId > 0)
+        {
+            await bookService.InitializeAsync();
+            var response = await bookService.GetBookById(BookId);
+
+            if (response != null)
+            {
+                Name = response.Name;
+                AuthorName = response.AuthorName;
+                AuthorEmail = response.AuthorEmail;
+                ISBN = response.ISBN;
+            }
+        }
+    }
+
+    private async Task Maintenance()
+    {
+        if (await ValidateFields())
+        {
+            var book = new Book
+            {
+                Name = Name,
+                AuthorName = AuthorName,
+                AuthorEmail = AuthorEmail,
+                ISBN = ISBN
+            };
+
+            int response = -1;
+
+            if (BookId > 0)
+            {
+                response = await bookService.UpdateBook(book);
+            } 
+            else
+            {
+                response = await bookService.AddBook(book);
+            }
+
+            if (response > 0)
+            {
+                Name = AuthorName = AuthorEmail = ISBN = string.Empty;
+                this.StateHasChanged();
+                await App.Current.MainPage.DisplayAlert(
+                    "Add Book",
+                    "Book saved successfully", 
+                    "OK");
+            }
+            else
+            {
+                await App.Current.MainPage.DisplayAlert(
+                    "Warning",
+                    "Something went wrong when including the book",
+                    "OK");
+            }
+        }
+    }
+
+    private void ReturnPage()
+    {
+        navigation.NavigateTo($"/");
+    }
+
+    public async Task<bool> ValidateFields()
+    {
+        if (string.IsNullOrEmpty(Name))
+        {
+            await App.Current.MainPage.DisplayAlert("Warning", "The book name field is mandatory", "OK");
+            return false;
+        }
+
+        if (string.IsNullOrEmpty(AuthorName))
+        {
+            await App.Current.MainPage.DisplayAlert("Warning", "The author name field is mandatory", "OK");
+            return false;
+        }
+
+        if (string.IsNullOrEmpty(AuthorEmail))
+        {
+            await App.Current.MainPage.DisplayAlert("Warning", "The author e-mail field is mandatory", "OK");
+            return false;
+        }
+
+        if (string.IsNullOrEmpty(ISBN))
+        {
+            await App.Current.MainPage.DisplayAlert("Warning", "The ISBN field is mandatory", "OK");
+            return false;
+        }
+
+        return true;
+    }
+}
