@@ -1,4 +1,8 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0-maccatalyst
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -8,51 +12,53 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TarefasApp
-build_property.ProjectDir = C:\Users\Dougl\source\repos\PDMI6\TP02\TarefasApp\
+build_property.ProjectDir = C:\Users\Lusni\Documents\GitHub\PDMI6\TP02\TarefasApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Dougl/source/repos/PDMI6/TP02/TarefasApp/App.xaml]
+[C:/Users/Lusni/Documents/GitHub/PDMI6/TP02/TarefasApp/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TarefasApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Dougl/source/repos/PDMI6/TP02/TarefasApp/AppShell.xaml]
+[C:/Users/Lusni/Documents/GitHub/PDMI6/TP02/TarefasApp/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TarefasApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Dougl/source/repos/PDMI6/TP02/TarefasApp/DetailTask.xaml]
+[C:/Users/Lusni/Documents/GitHub/PDMI6/TP02/TarefasApp/DetailTask.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TarefasApp.DetailTask.xaml
 build_metadata.AdditionalFiles.TargetPath = DetailTask.xaml
 build_metadata.AdditionalFiles.RelativePath = DetailTask.xaml
 
-[C:/Users/Dougl/source/repos/PDMI6/TP02/TarefasApp/EditPopupPage.xaml]
+[C:/Users/Lusni/Documents/GitHub/PDMI6/TP02/TarefasApp/EditPopupPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TarefasApp.EditPopupPage.xaml
 build_metadata.AdditionalFiles.TargetPath = EditPopupPage.xaml
 build_metadata.AdditionalFiles.RelativePath = EditPopupPage.xaml
 
-[C:/Users/Dougl/source/repos/PDMI6/TP02/TarefasApp/MainPage.xaml]
+[C:/Users/Lusni/Documents/GitHub/PDMI6/TP02/TarefasApp/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TarefasApp.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Dougl/source/repos/PDMI6/TP02/TarefasApp/NovaTarefaPage.xaml]
+[C:/Users/Lusni/Documents/GitHub/PDMI6/TP02/TarefasApp/NovaTarefaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TarefasApp.NovaTarefaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = NovaTarefaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = NovaTarefaPage.xaml
 
-[C:/Users/Dougl/source/repos/PDMI6/TP02/TarefasApp/Resources/Styles/Colors.xaml]
+[C:/Users/Lusni/Documents/GitHub/PDMI6/TP02/TarefasApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TarefasApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Dougl/source/repos/PDMI6/TP02/TarefasApp/Resources/Styles/Styles.xaml]
+[C:/Users/Lusni/Documents/GitHub/PDMI6/TP02/TarefasApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TarefasApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
