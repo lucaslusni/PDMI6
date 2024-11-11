@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarefasApp.NovaTarefaPage"
+             BackgroundColor="Transparent">
+    
+    <StackLayout BackgroundColor="LightGray">
+        <Entry 
+            TextColor="Black"
+            Placeholder="Título"
+            x:Name="txtTitle" />
+        
+        <Entry 
+            TextColor="Black"
+            Placeholder="Descrição"
+            x:Name="txtDescription" />
+
+        <DatePicker 
+            TextColor="Black"
+            x:Name="txtDate" >
+        </DatePicker>
+        
+        <Entry 
+            TextColor="Black" 
+            Placeholder="Prioridade"
+            x:Name="txtPriority" />
+        
+        <Button
+            BackgroundColor="Black"
+            TextColor="White"
+            Text="Add Task"
+            Clicked="AddTask" />
+        
+    </StackLayout>
+</ContentPage>
